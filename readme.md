@@ -6,6 +6,20 @@
 <img src="https://user-images.githubusercontent.com/28720491/127005728-c0211ba0-0648-4fd6-94b7-2bd49aafe2e0.png" alt="Girl in a jacket" width="600" height="350">
 
 **************************
+Fitur Yang Tersedia
+**************************
+
+-  Multi Level User
+-  Kelembagaab
+-  MAster Data
+-  Buku Induk
+-  Export ke Format Excel
+-  Presensi Guru
+-  Presensi Siswa
+-  E - Raport
+-  Manajemen BK
+
+**************************
 Changelog and New Features
 **************************
 
