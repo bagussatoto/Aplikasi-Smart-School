@@ -1,0 +1,23 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+/** { margin: 0; padding: 0; }*/
+/*body { font: 14px Georgia, serif; }*/
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#page-wrap { width: 490px; margin: 80px auto; }
+
+/*body { background: #333; text-align: center; color: #eee; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }*/
+h1 { font-size: 42px; font-weight: 600; margin: 0 0 30px 0; }
+
+pre {
+	background: black;
+	text-align: left;
+	padding: 20px;
+	margin: 0 auto 30px auto; 
+}
