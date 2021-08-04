@@ -46,8 +46,3 @@ Installation
 -  Buat Database
 -  Ubah file database.php yang berada di folder \application\config\database.php  Sesuaikan konfigurasi dengan database yang anda buat
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cahya126&layout=compact)](https://github.com/cahya126/github-readme-stats)
-
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
