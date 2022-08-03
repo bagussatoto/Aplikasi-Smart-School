@@ -36,12 +36,6 @@ Server Requirements
 -  Ioncube VC 11_X86-64
 -  Mysql 
 
-
-![Cahya's GitHub stats](https://github-readme-stats.vercel.app/api?username=cahya126&show_icons=true&theme=prussian)
-************
-Installation
-************
-
 -  Copy Folder ini ke htdocs / hosting
 -  Buat Database
 -  Ubah file database.php yang berada di folder \application\config\database.php  Sesuaikan konfigurasi dengan database yang anda buat
