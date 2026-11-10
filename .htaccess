@@ -9,4 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
 
-php_value date.timezone Asia/Jakarta
+# php_value date.timezone Asia/Jakarta  # disabled for non‑mod_php environments

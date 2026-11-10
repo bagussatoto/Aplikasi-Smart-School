@@ -1,0 +1,30 @@
+name: Auto-push generated files
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+  schedule:
+    - cron: '0 2 * * *'   # Every day at 02:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit & push changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "auto-generated update $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git push origin HEAD
+          else
+            echo "No changes to push"
+          fi
